@@ -1,0 +1,5 @@
+main: matrix-template-1.cpp
+	g++ -std=c++11 matrix-template-1.cpp -o main
+
+clean:
+	rm -f *.o main
